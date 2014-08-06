@@ -1,0 +1,8 @@
+extends layout
+block content
+   if user.name
+     h2 Hi! #{user.name}
+     p welcome to Random chat service
+   else 
+     include login
+  
